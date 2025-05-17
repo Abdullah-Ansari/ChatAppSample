@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct ChatAppSampleApp: App {
+    
+    @StateObject private var appDependencyContainer: AppDependencyContainer = AppDependencyContainer.shared
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(appDependencyContainer)
         }
     }
 }

@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		509E7CED2DD8BB3600F2796B /* XMPPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509E7CEC2DD8BB3600F2796B /* XMPPManager.swift */; };
+		509E7CEF2DD8BB3E00F2796B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509E7CEE2DD8BB3E00F2796B /* NetworkManager.swift */; };
+		509E7CF22DD8BBC200F2796B /* LocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509E7CF12DD8BBC200F2796B /* LocalDataSource.swift */; };
+		509E7CF42DD8BBDA00F2796B /* RemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509E7CF32DD8BBDA00F2796B /* RemoteDataSource.swift */; };
+		509E7CF62DD8BC0000F2796B /* RealTimeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509E7CF52DD8BC0000F2796B /* RealTimeDataSource.swift */; };
+		509E7CF82DD8BDC000F2796B /* ConversationsRepositry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509E7CF72DD8BDC000F2796B /* ConversationsRepositry.swift */; };
+		509E7CFA2DD8BF2700F2796B /* FetchConversationUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509E7CF92DD8BF2700F2796B /* FetchConversationUseCase.swift */; };
+		509E7CFC2DD8C00300F2796B /* InsertConversationUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509E7CFB2DD8C00300F2796B /* InsertConversationUseCase.swift */; };
+		509E7CFE2DD8C05E00F2796B /* ConversationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509E7CFD2DD8C05E00F2796B /* ConversationsViewModel.swift */; };
+		509E7D002DD8C0ED00F2796B /* ConversationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509E7CFF2DD8C0ED00F2796B /* ConversationsView.swift */; };
+		509E7D022DD8C2C600F2796B /* ConversationsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509E7D012DD8C2C600F2796B /* ConversationsService.swift */; };
+		509E7D042DD8C84800F2796B /* AppDependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509E7D032DD8C84800F2796B /* AppDependencyContainer.swift */; };
 		50F240A82DD2776000ACCE4F /* ChatAppSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F240A72DD2776000ACCE4F /* ChatAppSampleApp.swift */; };
 		50F240AA2DD2776000ACCE4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F240A92DD2776000ACCE4F /* ContentView.swift */; };
 		50F240AC2DD2776100ACCE4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F240AB2DD2776100ACCE4F /* Assets.xcassets */; };
@@ -16,6 +28,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		509E7CEC2DD8BB3600F2796B /* XMPPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMPPManager.swift; sourceTree = "<group>"; };
+		509E7CEE2DD8BB3E00F2796B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		509E7CF12DD8BBC200F2796B /* LocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataSource.swift; sourceTree = "<group>"; };
+		509E7CF32DD8BBDA00F2796B /* RemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataSource.swift; sourceTree = "<group>"; };
+		509E7CF52DD8BC0000F2796B /* RealTimeDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealTimeDataSource.swift; sourceTree = "<group>"; };
+		509E7CF72DD8BDC000F2796B /* ConversationsRepositry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsRepositry.swift; sourceTree = "<group>"; };
+		509E7CF92DD8BF2700F2796B /* FetchConversationUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchConversationUseCase.swift; sourceTree = "<group>"; };
+		509E7CFB2DD8C00300F2796B /* InsertConversationUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertConversationUseCase.swift; sourceTree = "<group>"; };
+		509E7CFD2DD8C05E00F2796B /* ConversationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsViewModel.swift; sourceTree = "<group>"; };
+		509E7CFF2DD8C0ED00F2796B /* ConversationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsView.swift; sourceTree = "<group>"; };
+		509E7D012DD8C2C600F2796B /* ConversationsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsService.swift; sourceTree = "<group>"; };
+		509E7D032DD8C84800F2796B /* AppDependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependencyContainer.swift; sourceTree = "<group>"; };
 		50F240A42DD2776000ACCE4F /* ChatAppSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatAppSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F240A72DD2776000ACCE4F /* ChatAppSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAppSampleApp.swift; sourceTree = "<group>"; };
 		50F240A92DD2776000ACCE4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +60,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		509E7CE62DD8BAE300F2796B /* Conversations */ = {
+			isa = PBXGroup;
+			children = (
+				509E7CE72DD8BAF200F2796B /* Presenter */,
+				509E7CF72DD8BDC000F2796B /* ConversationsRepositry.swift */,
+				509E7CF92DD8BF2700F2796B /* FetchConversationUseCase.swift */,
+				509E7CFB2DD8C00300F2796B /* InsertConversationUseCase.swift */,
+				509E7CFD2DD8C05E00F2796B /* ConversationsViewModel.swift */,
+				509E7CFF2DD8C0ED00F2796B /* ConversationsView.swift */,
+				509E7D012DD8C2C600F2796B /* ConversationsService.swift */,
+			);
+			path = Conversations;
+			sourceTree = "<group>";
+		};
+		509E7CE72DD8BAF200F2796B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		509E7CF02DD8BBB500F2796B /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				509E7CF12DD8BBC200F2796B /* LocalDataSource.swift */,
+				509E7CF32DD8BBDA00F2796B /* RemoteDataSource.swift */,
+				509E7CF52DD8BC0000F2796B /* RealTimeDataSource.swift */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
 		50F2409B2DD2776000ACCE4F = {
 			isa = PBXGroup;
 			children = (
@@ -55,12 +110,15 @@
 		50F240A62DD2776000ACCE4F /* ChatAppSample */ = {
 			isa = PBXGroup;
 			children = (
+				509E7CF02DD8BBB500F2796B /* DataSources */,
+				509E7CE62DD8BAE300F2796B /* Conversations */,
 				50F240BA2DD278D100ACCE4F /* DataManager */,
 				50F240A72DD2776000ACCE4F /* ChatAppSampleApp.swift */,
 				50F240A92DD2776000ACCE4F /* ContentView.swift */,
 				50F240AB2DD2776100ACCE4F /* Assets.xcassets */,
 				50F240B72DD278C100ACCE4F /* ChatAppModel.xcdatamodeld */,
 				50F240AD2DD2776100ACCE4F /* Preview Content */,
+				509E7D032DD8C84800F2796B /* AppDependencyContainer.swift */,
 			);
 			path = ChatAppSample;
 			sourceTree = "<group>";
@@ -77,6 +135,8 @@
 			isa = PBXGroup;
 			children = (
 				50F240BB2DD278E000ACCE4F /* CoreDataManager.swift */,
+				509E7CEC2DD8BB3600F2796B /* XMPPManager.swift */,
+				509E7CEE2DD8BB3E00F2796B /* NetworkManager.swift */,
 			);
 			path = DataManager;
 			sourceTree = "<group>";
@@ -152,9 +212,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				50F240AA2DD2776000ACCE4F /* ContentView.swift in Sources */,
+				509E7D022DD8C2C600F2796B /* ConversationsService.swift in Sources */,
 				50F240A82DD2776000ACCE4F /* ChatAppSampleApp.swift in Sources */,
 				50F240BC2DD278E000ACCE4F /* CoreDataManager.swift in Sources */,
+				509E7CF62DD8BC0000F2796B /* RealTimeDataSource.swift in Sources */,
+				509E7CEF2DD8BB3E00F2796B /* NetworkManager.swift in Sources */,
+				509E7CFE2DD8C05E00F2796B /* ConversationsViewModel.swift in Sources */,
+				509E7CF22DD8BBC200F2796B /* LocalDataSource.swift in Sources */,
+				509E7CFA2DD8BF2700F2796B /* FetchConversationUseCase.swift in Sources */,
+				509E7CF42DD8BBDA00F2796B /* RemoteDataSource.swift in Sources */,
+				509E7D002DD8C0ED00F2796B /* ConversationsView.swift in Sources */,
+				509E7CED2DD8BB3600F2796B /* XMPPManager.swift in Sources */,
+				509E7CFC2DD8C00300F2796B /* InsertConversationUseCase.swift in Sources */,
 				50F240B92DD278C100ACCE4F /* ChatAppModel.xcdatamodeld in Sources */,
+				509E7D042DD8C84800F2796B /* AppDependencyContainer.swift in Sources */,
+				509E7CF82DD8BDC000F2796B /* ConversationsRepositry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
